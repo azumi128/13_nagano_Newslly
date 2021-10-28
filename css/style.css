@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* ベース
+--------------------- */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: #a6adb4;
+  background-color: #ffffff;
+}
+
+h2 {
+  margin-bottom: 30px;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: #ebeded solid 2px;
+  color: #202124;
+}
+
+/* レイアウト
+--------------------- */
+.l-header {
+  padding-top: 30px;
+}
+
+.l-inner {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.l-flex {
+  display: flex;
+}
+
+.l-justify-between {
+  justify-content: space-between;
+}
+
+.l-align-center {
+  align-items: center;
+}
+
+.l-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+.l-section {
+  padding: 60px 0 0;
+}
+
+.l-col6 {
+  width: 47.5%;
+}
+
+.l-col4 {
+  width: s;
+}
+
+.l-backcolor-F6F8F9 {
+  background-color: #f6f8f9;
+}
+
+/* モジュール
+--------------------- */
+/* g-nav */
+.g-nav > li {
+  margin-left: 20px;
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.g-nav a {
+  text-decoration: none;
+  color: #a6adb4;
+}
+
+.g-nav a:hover {
+  color: #343638;
+}
+
+/* news */
+.news {
+  margin-bottom: 60px;
+}
+
+.news-category {
+  color: #fa6980;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.news-title {
+  margin: 5px 0 10px;
+  color: #202124;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.news-text {
+  margin: 10px 0 20px;
+}
+
+.news-time > p {
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.news-time > img {
+  width: auto;
+  height: 16px;
+}
+
+/* card */
+
+/* btn */
+
+/* date */
